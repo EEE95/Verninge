@@ -4,9 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Åsemosebæk</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Estyle.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/forside.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e25bb8edbb.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <!-- header -->
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+    <nav class="mobile-menu">
+        <ul class="menu">
+            <li>
+                <a href="index.html"><label>Forside</label></a>
+            </li>
+
+            <li>
+                <input type="checkbox" id="menu-item-2">
+                <label for="menu-item-2">Info +</label>
+                <ul class="submenu">
+                    <li><a href="#">Skoler/institutioner</a></li>
+                    <li><a href="#">Natur</a></li>
+                    <li><a href="#">Fællesskab</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><label>Aktivitetskalender</label></a>
+            </li>
+
+            <li>
+                <input type="checkbox" id="menu-item-4">
+                <label for="menu-item-4">Tilflytter +</label>
+                <ul class="submenu">
+                    <li><a href="#">Find bolig</a></li>
+                    <li><a href="#">Find lejebolig</a></li>
+                    <li><a href="#">Find byggegrund</a></li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="menu-item-5">
+                <label for="menu-item-5">Foreninger +</label>
+                <ul class="submenu">
+                    <li><a href="">Gymnastikforening Verninge</a></li>
+                    <li><a href="">Verninge Forsamlingshus</a></li>
+                    <li><a href="">Verninge Husflid</a></li>
+                    <li><a href="">Verninge Idrætsforening</a></li>
+                    <li><a href="">Verninge Spejderne</a></li>
+                    <li><a href="">Verninge Vandværk</a></li>
+                    <li><a href="">Verninge Kirke</a></li>
+                    <li><a href="">Borgerforening</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <input type="checkbox" id="menu-item-6">
+                <label for="menu-item-6">Tilmelding +</label>
+                <ul class="submenu">
+                    <li><a href="">Bliv en del af borgerforeningen</a></li>
+                </ul>
+            </li>
+
+           
+
+        </ul>
+
+    </nav>
+
+        <div class="mobile-logo"> 
+            <a href="index.html">
+                <img src="img/Verningelogo.webp" alt="Logo Verninge">
+            </a>
+        </div>
+
+        <div class="search-icon"> 
+                <img src="img/searchicon.svg" alt="Søge ikon">
+        </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li class="dropdown">
+                <a href="">Info</a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Skoler/institutioner</a></li>
+                    <li><a href="">Natur</a></li>
+                    <li><a href="">Fællesskab</a></li>
+
+                </ul>
+            </li>
+            <li><a href="">Aktivitetskalender</a></li>
+        </ul>
     
+        <div class="logo"> 
+            <a href="index.html">
+                <img src="img/Verningelogo.webp" alt="Logo Verninge">
+            </a>
+        </div>
+    
+        <ul>
+            <li class="dropdown">
+                <a href="">Tilflytter</a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Find bolig</a></li>
+                    <li><a href="">Find lejebolig</a></li>
+                    <li><a href="">Find byggegrund</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="">Foreninger</a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Gymnastikforening Verninge</a></li>
+                    <li><a href="">Verninge Forsamlingshus</a></li>
+                    <li><a href="">Verninge Husflid</a></li>
+                    <li><a href="">Verninge Idrætsforening</a></li>
+                    <li><a href="">Verninge Spejderne</a></li>
+                    <li><a href="">Verninge Vandværk</a></li>
+                    <li><a href="">Verninge Kirke</a></li>
+                    <li><a href="">Borgerforening</a></li>
+
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="">Tilmelding</a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Bliv en del af 
+                        <br>borgerforeningen</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<!-- main -->
+<main>
+
+</main>
+
+<!-- footer -->
+
+<footer>
+    <hr class="seperator1">
+    <div class="footer-row">
+        <div class="footer-col logo-col">
+            <a href="index.html">
+            <img src="img/Verningelogo.webp" class="footer-logo" alt="Logo Verninge">
+            </a>
+        </div>
+        <div class="footer-col">
+            <h3>Navigation</h3>
+           <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="">Info</a></li>
+            <li><a href="">Aktivitetskalender</a></li>
+            <li><a href="">Tilflytter</a></li>
+            <li><a href="">Foreninger</a></li>
+            <li><a href="">Tilmelding</a></li>        
+        </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Borgernyt</h3>
+            <ul>
+                <li><a href="">Nyhedseksempel</a></li>
+                <li><a href="">Nyhedseksempel</a></li>
+                <li><a href="">Nyhedseksempel</a></li>
+                <li><a href="">Nyhedseksempel</a></li>
+                <li><a href="">Nyhedseksempel</a></li>
+                <li><a href="">Nyhedseksempel</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Søg</h3>
+            <form>
+                <input type="text" placeholder="Søg">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/verningeogomegn/">
+                    <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/explore/locations/271809650/verninge-fyn-denmark/">
+                <i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="contact-email">
+                <img src="img/Subtract.svg" alt="Email ikon">
+                formand@verninge.dk
+            </p>
+            <p class="contact-number">
+                <img src="img/Vector 189.svg" alt="Telefon ikon">
+                +45 29 90 43 87
+            </p>
+            </div>
+        </div>
+    </div>
+    <hr class="seperatsor2">
+    <p class="copyright-text">Copyright © 2023 Verninge Borgerforening. All rights reserved.</p>
+ </footer>
+
 </body>
 </html>
