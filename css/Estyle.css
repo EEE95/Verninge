@@ -76,7 +76,7 @@ section.box{
 .greenbox{
     text-align: center;
     background-color: #C5DBC5;
-    height: 310px;
+    height: 360px;
     width: 300px;
     border-radius: 20px;
     box-shadow: 0 14px 12px rgba(0, 0, 0, 0.300);
@@ -102,6 +102,10 @@ section.box{
     flex-direction: column;
     gap: 15px;
 }
+.box-text h3{
+    margin-left: 20px;
+}
+
 .box-knap{
     width: 150px;
     height: 40px;
