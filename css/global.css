@@ -33,15 +33,31 @@ main h3{
     font-weight: bolder;
 }
       
-.brødkrumme a{
-    font-size: 12px;
-    color: black;
-    text-decoration: none;
+/* Styling af brødkrumme sti */
+
+.brødkrumme {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 15px;
 }
-.brødkrumme{
-    font-size: 12px;
-    margin-bottom: 20px;
-    margin-left: 11%;
+
+.brødkrumme li {
+    margin-right: 10px; 
+}
+
+.brødkrumme a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 0.9rem;
+}
+
+.brødkrumme li:not(:last-child)::after {
+    content: ' / '; 
+    color: #666;
 }
 
 
@@ -342,6 +358,15 @@ main h3{
     display: none;
 }
 
+.seperator-line {
+   display: flex;
+   justify-content: center;
+}
+
+.seperator-line img {
+    width: 80%;
+    height: auto;
+}
 
 
 @media screen and (max-width: 930px) {
@@ -378,7 +403,6 @@ main h3{
         cursor: pointer;
     }
     
-
 }
 
 
@@ -415,7 +439,7 @@ footer {
 
 .footer-col h3 {
     width: fit-content;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -493,7 +517,7 @@ form button {
 }
 
 .seperator2 {
-    width: 80%;
+    width: 100%;
     border: 0;
     border-bottom: 1px solid rgb(0, 0, 0) ;
     margin: 20px auto;

@@ -1,0 +1,100 @@
+*{
+    box-sizing: content-box;
+}
+
+/*Header*/
+
+.verninge{
+    text-align: center;
+    font-size: medium;
+}
+
+/*Main*/
+.brødkrumme{
+    font-size: small;
+}
+
+.gymv{
+font-size: xx-large;
+text-align: center;
+}
+
+.grønbox{
+    text-align: left;
+    background-color: #C5DBC5;
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    box-shadow: 0 14px 12px rgba(0, 0, 0, 0.300);
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+.hvidbox{
+    text-align: left;
+    background-color: white;
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+.yogabillede{
+    max-width: 100%;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.dancebillede{
+    background-position: center;
+    background-size: 50%;
+    max-width: 100%;
+}
+
+.togetherbillede{
+    background-position: center;
+    background-size: 50%;
+    max-width: 100%;
+}
+
+.boxgrøn{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+    position: absolute;
+    gap: 5px;
+}
+
+.boxhvid{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: right;
+    position: absolute;
+    gap: 5px;
+}
+
+.borgerforening{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.borgerforeningsbillede{
+    width: 65%;
+    position: relative;
+    left: 18%;
+}
+
+.verningep{
+    margin-left: 18%;
+    margin-right: 16%;
+}
+
+/*footer*/
