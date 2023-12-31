@@ -16,7 +16,10 @@
     height: 55vh;
     display: inline-block;
     filter: brightness(70%);
+    object-fit: cover;
 }
+
+
 
 .overlay-text {
     position: absolute;
