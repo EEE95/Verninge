@@ -521,9 +521,11 @@
 }
 
 /*Styling af intro-section på mobil*/
+@media only screen and (max-width: 930px){
 .intro-section {
     margin-left: 8%;
     margin-right: 8%;
+}
 }
 
 
