@@ -520,6 +520,14 @@
     width: 100%;
 }
 
+/*Styling af intro-section på mobil*/
+.intro-section {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+
 /*Styling af de grønne fakta bokse*/
 
 .green-info-box {
