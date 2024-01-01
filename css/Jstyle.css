@@ -541,6 +541,7 @@
     justify-content: center; 
     align-items: center; 
     text-align: center; 
+    position: relative;
 }
 
 
@@ -564,7 +565,9 @@
     color: white;
     font-size: 18px;
     position: absolute;
-    margin-top: 12%;
+    bottom: -10px;
+    left: 0;
+    right: 0;
 }
 
 .infobox-wrapper {
@@ -572,7 +575,90 @@
     flex-direction: row;
     gap: 20px;
     justify-content: center;
+    margin-top: 70px;
 }
+
+/*Styling af de grønne fakta bokse på mobil*/
+@media only screen and (max-width: 1540px){
+    .info-bottom-text {
+        font-size: 16px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1425px){
+    .info-heading {
+        font-size: 30px;
+    }
+    
+    .info-text {
+        font-size: 20px;
+    }
+
+    .info-bottom-text {
+        font-size: 14px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1180px){
+    .info-heading {
+        font-size: 26px;
+    }
+    
+    .info-text {
+        font-size: 16px;
+    }
+
+    .info-bottom-text {
+        font-size: 12px;
+
+    }
+
+    .green-info-box {
+        width: 33%;
+        height: 150px;
+    }
+}
+
+    @media only screen and (max-width: 610px){
+        .info-heading {
+            font-size: 22px;
+        }
+        
+        .info-text {
+            font-size: 14px;
+        }
+    
+        .info-bottom-text {
+            font-size: 10px;
+    
+        }
+        .info-bottom-text {
+            display: none;
+        }
+
+        .infobox-wrapper {
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+
+
+    }
+
+    @media only screen and (max-width: 510px){
+        .info-text {
+            font-size: 12px;
+        }
+    }
+
+
+
+
 
 /*Styling af skolens kontakt info*/
 
@@ -609,4 +695,28 @@
     display: flex;
     gap: 5%;
     justify-content: center;
+}
+
+/*Styling af skolens kontakt info på mindre skærme og mobil*/
+@media only screen and (max-width: 1100px){
+.kontaktinfo-heading {
+    font-size: 35px;
+}
+
+.kontakt-info-text {
+    font-size: 16px;
+    margin-top: -15px;
+}
+}
+@media only screen and (max-width: 670px){
+
+    .kontaktinfo-heading {
+        font-size: 24px;
+    }
+    .kontakt-oplysning-wrapper {
+        flex-direction: column;
+    }
+
+
+
 }
