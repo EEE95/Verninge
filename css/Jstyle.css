@@ -487,12 +487,88 @@
 
 }
 
-.intro-faellesskab {
-    margin-left: 10%;
-    margin-right: 10%;
+
+/*Styling af intro-section*/
+
+.intro-section {
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 7%;
 }
 
-.intro-faellesskab h1 {
+.intro-section h1 {
     text-align: left;
 }
+
+.intro-section h2 {
+    margin-top: -1%;
+}
+
+.intro-billede {
+    width: 100%;
+}
+
+.intro-billede img {
+    width: 100%;
+}
+
+/*Styling af de grønne fakta bokse*/
+
+.green-info-box {
+    width: 20vw;
+    height: 14vw;
+    background: #415C41;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+
+.info-heading {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 2.7vw;
+    
+}
+
+.info-text {
+    margin: 0;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.info-bottom-text {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    margin-top: 13%;
+}
+
+.infobox-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+/*Styling af skolens kontakt info*/
+
+.kontaktinfo-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.kontakt-info-text {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+

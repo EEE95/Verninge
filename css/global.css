@@ -45,10 +45,6 @@ main h3{
     margin-bottom: 15px;
 }
 
-.brødkrumme li {
-    margin-right: 10px; 
-}
-
 .brødkrumme a {
     text-decoration: none; 
     color: #333; 
@@ -58,6 +54,7 @@ main h3{
 .brødkrumme li:not(:last-child)::after {
     content: ' / '; 
     color: #666;
+    margin: 0 5px;
 }
 
 
@@ -83,7 +80,6 @@ main h2{
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-left: 10px;
     margin-right: 10px;
 }
 
