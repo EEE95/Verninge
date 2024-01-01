@@ -487,6 +487,14 @@
 
 }
 
+/*Styling af hero-section image på mobil*/
+@media only screen and (max-width: 930px){
+
+.hero-image {
+    height: 30vh;
+}
+}
+
 
 /*Styling af intro-section*/
 
@@ -515,8 +523,8 @@
 /*Styling af de grønne fakta bokse*/
 
 .green-info-box {
-    width: 20vw;
-    height: 14vw;
+    width: 18vw;
+    height: 12vw;
     background: #415C41;
     display: flex;
     flex-direction: column; 
@@ -532,21 +540,21 @@
     font-family: 'Nunito Sans', sans-serif;
     color: white;
     font-weight: 900;
-    font-size: 2.7vw;
+    font-size: 40px;
     
 }
 
 .info-text {
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 24px;
     color: white;
 }
 
 .info-bottom-text {
     color: white;
-    font-size: 1vw;
+    font-size: 18px;
     position: absolute;
-    margin-top: 13%;
+    margin-top: 12%;
 }
 
 .infobox-wrapper {
@@ -561,14 +569,34 @@
 .kontaktinfo-heading {
     font-size: 40px;
     text-align: center;
-    margin-bottom: -20px;
+    margin-bottom: 13px;
 }
 
 .kontakt-info-text {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
+    margin-top: -20px;
 
 }
 
+.kontakt-oplysning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt-oplysning img {
+    width: 4%;
+    min-width: 70px;
+    margin-bottom: 22px;
+    margin-top: 25px;
+}
+
+.kontakt-oplysning-wrapper {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
