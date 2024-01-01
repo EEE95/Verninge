@@ -100,15 +100,16 @@ section.box{
 /*tekst felter*/
 p{
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
+}
+
+article {
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 article img{
     max-width: 100%;
     height: auto;
-    margin: 10px;
 
 }
 
@@ -138,8 +139,8 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 article h1{
     text-align: left;
