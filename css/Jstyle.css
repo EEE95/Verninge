@@ -894,6 +894,7 @@
 
   
   /*Event selector styling på små skærme */
+  
   @media (max-width: 600px) {
     .event-selector {
       flex-direction: column;
@@ -909,3 +910,233 @@
     }
   }
   
+  /*Donations box styling */
+
+  .amount-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#donation-amount {
+    padding-right: 40px;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+#donation-amount:focus {
+    border-color: #969696;
+    box-shadow: 0 0 5px #4A90E2; 
+    outline: none; 
+}
+
+
+.valuta-box {
+    position: absolute;
+    right: 10px;
+    pointer-events: none; 
+    border-left: 1px solid #c4c4c4;
+    line-height: 2.4;
+    padding-left: 5px;
+}
+
+.donations-box {
+    background: #f9f9f9;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.donations-h2 {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 30px;
+}
+
+.donations-button {
+    background: #415C41;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 100;
+    font-size: 16px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.donations-button:hover {
+    transform: scale(1.05);
+    background-color: #547554;
+}
+
+.amount-wrapper input[type="number"] {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.donations-button2 {
+    background: #415C41;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.donations-button2:hover {
+    transform: scale(1.05);
+    background-color: #547554;
+}
+
+.donations-belob {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.amount-container {
+    margin-bottom: 20px;
+}
+
+.valuta-box {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.alternativ-donation {
+    max-width: 1040px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.bank-donation {
+    width: 49%;
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.bank-donation img {
+    height: 70px;
+    width: 70px;
+
+}
+
+
+.mobilepay-donation {
+    width: 49%;
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mobilepay-donation img {
+    height: 60px;
+}
+
+.donation-h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.donation-h4 {
+    margin-top: -5px;
+    font-size: 24px;
+
+}
+
+.donation-p {
+    margin-top: -5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bund-tekst {
+    margin-top: 40px;
+}
+
+/* Styling af donations boxe på mobil og mindre skærme*/
+@media only screen and (max-width: 600px) {
+    .donations-box, .alternativ-donation, .amount-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .bank-donation, .mobilepay-donation {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+
+    .donations-button {
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    .donations-button2 {
+        width: 100%;
+    }
+
+
+    .donations-h2 {
+        font-size: 24px; 
+    }
+
+    .donation-h3, .donation-p {
+        font-size: 16px;
+    }
+
+    .donation-h4 {
+        font-size: 20px;
+    }
+
+    .donations-belob button:last-child {
+        display: none;
+      }
+
+    .bund-tekst {
+        margin-top: 170px;
+    }
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fællesskab - Verninge Borgerforening</title>
+    <title>Medlemskab - Verninge Borgerforening</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/Jstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
@@ -146,49 +146,62 @@
         <section class="hero-section-all">
             <div class="hero-image">
                 <div class="hero-image-overlay"></div>
-            <img src="img/faellesskabheader.webp" alt="Fællesskabsarrangement i Verninge">
-            <h1>Fællesskab</h1>
+            <img src="img/medlemskabhero.webp" alt="Fællesskabsarrangement i Verninge">
+            <h1>Medlemskab</h1>
         </div>
         </section>
         <nav>
             <ol class="brødkrumme">
               <li><a href="index.html">Forside</a></li>
-              <li><a href="faellesskab.html">Fællesskab</a></li>
+              <li><a href="medlemskab.html">Medlemskab</a></li>
             </ol>
           </nav>
 
         <section class="intro-section">
             
-            <h1>Fællesskab</h1>
+            <h1>Støt vores arbejde i foreningen</h1>
             <p>
-                I Verninge har du både mulighed for at mærke det stærke fællesskab i det trygge landsbymiljø og nyde udsigten over de åbne marker. Samtidig bor du tæt på Odense og har god luft i økonomien til at gøre det, familien drømmer om. I Verninge er der både dejlige store boliger og attraktive byggegrunde til dig, der vil skabe dit helt eget hjem.
-                <br><br>
-                I Landsbyparken ved Verninge Landsbyordning er der altid masser af liv. Her er plads til leg, fysisk udfoldelse og socialt samvær i skønne omgivelser året rundt.
-                <br><br>
-                Fællesskabet i Verninge kommer også til udtryk gennem det aktive foreningsliv og ved de mange årlige arrangementer, hvor knap 100 børn mødes til julearrangement ved Verninge Gamle Kro eller til påskearrangementet, hvor børnene finder gulerødder til påskeharen, som deler påskeæg ud.</p>
-        </section>
+                Alle borgere i Verninge og omegn betegnes som medlemmer, og der kræves ikke et medlemskontingent. For at vi fortsat kan tage initiativer, udvikle og lave aktiviteter, tager vi gerne i mod støttebidrag - hver en krone tæller.</p>
 
-        <section class="faelleskab-kategorier">
-            <div class="info-wrapper">
-                <div class="info-box">
-                    
-                    <img class="info-image" src="img/landsbyparken.webp" alt="billede fra børnearrangement">
-                    <h3 class="info-title">Landsbyparken</h3>
-                    <p class="info-description">Landsbyparken er byens nye stolte varetegn. En park med plads til leg, fysisk udfoldelse og socialt samvær. Parken er placeres på et stort grønt areal foran Verninge Skole.</p>
-                    <a href="aktivitetskalender.html" class="info-button">Læs mere</a>
+                <div class="donations-box">
+                    <h2 class="donations-h2">Lav en donation</h2>
+                    <div class="donations-belob">
+                    <button class="donations-button" onclick="document.getElementById('donation-amount').value = '50.00';">50 kr.</button>
+                    <button class="donations-button" onclick="document.getElementById('donation-amount').value = '100.00';">100 kr.</button>
+                    <button class="donations-button" onclick="document.getElementById('donation-amount').value = '200.00';">200 kr.</button>
+                    <button class="donations-button" onclick="document.getElementById('donation-amount').value = '300.00';">300 kr.</button>
+                    <button class="donations-button" onclick="document.getElementById('donation-amount').value = '500.00';">500 kr.</button>
                 </div>
-    
-                <div class="info-box">
-                    
-                    <img class="info-image" src="img/traditioner.webp" alt="billede fra børnearrangement">
-                    <h3 class="info-title">Traditioner</h3>
-                    <p class="info-description">I området er der mange frivillige og engagerede kræfter, som er med til at skabe liv og oplevelser for alle. De er med til at holder traditionerne i gang og bringer liv til byen.</p>
-                    <a href="kategori-skole&institution.html" class="info-button">Læs mere</a>
+                <div class="amount-container">
+                    <div class="amount-wrapper">
+                        <input type="number" id="donation-amount" name="donation-amount" placeholder="100,00">
+                        <span class="valuta-box">kr.</span>
+                    </div>
+                    </div> 
+                    <button class="donations-button2">Videre til kortbetaling</button>
+                 </div>
+                 <div class="alternativ-donation">
+                    <div class="bank-donation">
+                        <img src="img/banklogo.webp" alt="Bank logo">
+                        <h3 class="donation-h3">Støt med bankoverførsel</h3>
+                        <p class="donation-p">Reg. Nr. 6851<br>Kontonr. 0000179754</p>
+                    </div>
+                    <div class="mobilepay-donation">
+                        <img src="img/mobilepaylogo.svg" alt="MobilePay logo">
+                        <h3 class="donation-h3">Støt med MobilePay</h3>
+                        <h4 class="donation-h4">605 258</h4>
+                    </div>
                 </div>
-            </div>
-
-
-            
+                <p class="bund-tekst">
+                    Har man yderligere spørgsmål kan formand Christina Jakobsen kontaktes på:</p>
+                    <p class="contact-email">
+                        <img src="img/Subtract.svg" alt="Email ikon">
+                        formand@verninge.dk
+                    </p>
+                    <p class="contact-number">
+                        <img src="img/Vector 189.svg" alt="Telefon ikon">
+                        +45 29 90 43 87
+                    </p>
         </section>
     </main>
 
