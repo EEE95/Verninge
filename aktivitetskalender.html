@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktivitetskalender - Verninge Borgerforening</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/Jstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e25bb8edbb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+        <nav class="mobile-menu">
+            <ul class="menu">
+                <li>
+                    <a href="index.html"><label>Forside</label></a>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="menu-item-2">
+                    <label for="menu-item-2">Info +</label>
+                    <ul class="submenu">
+                        <li><a href="kategori-skole&institution.html">Skoler/institutioner</a></li>
+                        <li><a href="kategori-natur.html">Natur</a></li>
+                        <li><a href="faellesskab.html">Fællesskab</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="aktivitetskalender.html"><label>Aktivitetskalender</label></a>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="menu-item-4">
+                    <label for="menu-item-4">Tilflytter +</label>
+                    <ul class="submenu">
+                        <li><a href="#">Find bolig</a></li>
+                        <li><a href="#">Find lejebolig</a></li>
+                        <li><a href="#">Find byggegrund</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="menu-item-5">
+                    <label for="menu-item-5">Foreninger +</label>
+                    <ul class="submenu">
+                        <li><a href="">Gymnastikforening Verninge</a></li>
+                        <li><a href="">Verninge Forsamlingshus</a></li>
+                        <li><a href="">Verninge Husflid</a></li>
+                        <li><a href="">Verninge Idrætsforening</a></li>
+                        <li><a href="">Verninge Spejderne</a></li>
+                        <li><a href="">Verninge Vandværk</a></li>
+                        <li><a href="">Verninge Kirke</a></li>
+                        <li><a href="">Borgerforening</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="menu-item-6">
+                    <label for="menu-item-6">Tilmelding +</label>
+                    <ul class="submenu">
+                        <li><a href="">Bliv en del af borgerforeningen</a></li>
+                    </ul>
+                </li>
+
+               
+
+            </ul>
+
+        </nav>
+
+            <div class="mobile-logo"> 
+                <a href="index.html">
+                    <img src="img/Verningelogo.webp" alt="Logo Verninge">
+                </a>
+            </div>
+
+            <div class="search-icon"> 
+                    <img src="img/searchicon.svg" alt="Søge ikon">
+            </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li class="dropdown">
+                    <a href="">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="kategori-skole&institution.html">Skoler/institutioner</a></li>
+                        <li><a href="kategori-natur.html">Natur</a></li>
+                        <li><a href="faellesskab.html">Fællesskab</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="aktivitetskalender.html">Aktivitetskalender</a></li>
+            </ul>
+        
+            <div class="logo"> 
+                <a href="index.html">
+                    <img src="img/Verningelogo.webp" alt="Logo Verninge">
+                </a>
+            </div>
+        
+            <ul>
+                <li class="dropdown">
+                    <a href="">Tilflytter</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Find bolig</a></li>
+                        <li><a href="">Find lejebolig</a></li>
+                        <li><a href="">Find byggegrund</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="">Foreninger</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Gymnastikforening Verninge</a></li>
+                        <li><a href="">Verninge Forsamlingshus</a></li>
+                        <li><a href="">Verninge Husflid</a></li>
+                        <li><a href="">Verninge Idrætsforening</a></li>
+                        <li><a href="">Verninge Spejderne</a></li>
+                        <li><a href="">Verninge Vandværk</a></li>
+                        <li><a href="">Verninge Kirke</a></li>
+                        <li><a href="">Borgerforening</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="">Tilmelding</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Bliv en del af 
+                            <br>borgerforeningen</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section-all">
+            <div class="hero-image">
+                <div class="hero-image-overlay"></div>
+            <img src="img/herokalender-min.webp" alt="Fællesskabsarrangement i Verninge">
+            <h1>Aktivitetskalender</h1>
+        </div>
+        </section>
+        <nav>
+            <ol class="brødkrumme">
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="aktivitetskalender.html">Aktivitetskalender</a></li>
+            </ol>
+          </nav>
+
+        <section class="kalender-section">
+            <h2 class="event-h2">Vælg en dato</h2>
+            <div class="event-selector">
+                <label for="start-date">Startdato:</label>
+                <input type="date" id="start-date" name="start-date">
+            
+                <label for="end-date">Slutdato:</label>
+                <input type="date" id="end-date" name="end-date">
+            
+                <button type="button">Vælg</button>
+            </div>
+            
+            <div class="event-list">
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/julekoncert.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Julekoncert i Verninge kirke</h3>
+                    <p class="event-date">10-12-2023</p>
+                    <p class="event-description">Oplev Odense Motetkor til julekoncert i Verninge kirke anden søndag i advent. Odense Motetkor ledes af vores eget tidligere bysbarn Christian Dyrst, og til koncerten vil der blive budt på både dansk og udenlandsk julemusik.
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+    
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/juletraestaending.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Juletræstænding</h3>
+                    <p class="event-date">25-11-2023</p>
+                    <p class="event-description">Kære alle i Verninge og omegn
+                        I år er det igen muligt at mødes og ønske hinanden glædeligt jul. Derfor er det med varmt hjerte, at vi inviterer jer alle lørdag d. 25. november kl. 15 på Verninge kroplads til den årlige juletræstænding.
+                        Borgerforeningen er vært med glögg og æbleskiver, og sammen skaber vi den gode julestemning. Julemanden kommer forbi kl. 16 med slikposer og hjælper med at tænde juletræet.
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/fremtidsvaerksted.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Fremtidsværksted</h3>
+                    <p class="event-date">23-11-2023</p>
+                    <p class="event-description">Vil du være en del af vores fælles fremtid?
+                        Så kom og vær med, når vi afholder Fremtidsværksted torsdag den 23. november kl. 19 på Verninge Skole. Vi starter med kaffe og et lille oplæg om, hvad der rør sig i vores
+                        område. Derefter er der workshop: Hvordan bliver dine og din nabos fremtidsdrømme for vores landsby til virkelighed?
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="event-list">
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/faellesspisning.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Fællesspisning med musik</h3>
+                    <p class="event-date">13-11-2023</p>
+                    <p class="event-description">Mandag d. 13/11 laver Bente flæskesteg med sovs og kartofler til fællesspisningen og der er kaffe og risalamande til dessert.
+                        MEN VENT... der er mere, for udover den dejlige mad, så kommer Kristian, fra KRISTIAN & DE GULE ENKER - En hyldest til Larsen & Gasolin' og spiller noget herligt musik for os i en halv times tid. Det glæder vi os vildt til.<br><br>
+                        Pris:<br> Voksne: 120 kr.<br> Børn 4-13 år: 60 kr.<br> Under 4 år: Gratis<br><br>
+                        Tilmelding senest 4 dage før til:
+                        Bente Sørensen
+                        26 39 32 33 eller bente@verningeforsamlingshus.dk
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+    
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/faellesspisning2.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Fællesspisning</h3>
+                    <p class="event-date">19-09-2023</p>
+                    <p class="event-description">Efteråret er her, og det er tid til at omfavne hyggen indendørs. Den næste ret til fællesspisning er perfekt til netop dette: Kyllingesteg, det er så mundvandet løber.
+                        Som altid er der kaffe efter maden, og denne gang er der frugter med råcreme til dessert.<br>
+                        Det er tirsdag d. 19 kl. 17.30-20.00
+                        <br><br>
+                        Pris:<br> Voksne: 120 kr.<br> Børn 4-13 år: 60 kr.<br> Under 4 år: Gratis
+                        <br><br>Tilmelding senest 4 dage før til:
+                        Bente Sørensen
+                        26 39 32 33 eller bente@verningeforsamlingshus.dk
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/vildmedverninge.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Vild med Verninge</h3>
+                    <p class="event-date">02-09-2023</p>
+                    <p class="event-description">Kom til Vild med Verninge lørdag d. 2. september og oplev, hvad Verninge kan byde på kun 15 min. væk fra Odense. Foreninger på tværs af byen er gået sammen om at skabe en dag fyldt med aktiviteter for alle.
+                        Her kan du opleve Assens Musikskole optræde med Musikfrø, prøve spring i gymnastiksalen, byg med Lego, få sved på panden til Naturrace i Verninge Mose, opleve den gode stemning til fodboldkamp og slutte dagen af med god mad, Rap og hiphop show med Rapalogik og Lååftens Helte samt to timers DJ til at spille festen i gang, mens der kan købes drikkevarer i baren.
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="event-list">
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/loppemarked.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Forårsloppemarked</h3>
+                    <p class="event-date">30-04-2023</p>
+                    <p class="event-description">Vi holder loppemarked i alle vængerne, ud fra Overmarksvej (sidevej til Odensevej) i Verninge.
+                        <br><br>Elmevej<br>
+                        Rønnevej<br>
+                        Kastanievej<br>
+                        Egevej<br><br>
+                        Vi står klar med loppeboder, højt humør og solskin.
+                        Du kan finde ting til huset, dit klædeskab eller ungerne. Dyk ned i sagerne, og få en snak med de lokale.
+                        <br><br>Vi glæder os til at jer fra kl. 10-16.00.<br><br>
+                        De bedste hilsener
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+    
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/paaskejagt.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Påskejagt i Landsbyparken</h3>
+                    <p class="event-date">10-04-2023</p>
+                    <p class="event-description">Påskeharen har igen tabt sine gulerødder, som skal bruges til Påskefrokosten. Vil du hjælpe Påskeharen med at finde dem? Påskeharen lover Påskeæg til dem der hjælper. Vi ses! Venlig Hilsen Borgerforeningen.
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="event-image">
+                        <img src="img/generalforsamling.jpg" alt="Begivenhed Billede">
+                    </div>
+                    <div class="event-text">
+                    <h3 class="event-name">Generalforsamling</h3>
+                    <p class="event-date">23-02-2023</p>
+                    <p class="event-description">Aftenen starter med generalforsamling fra 19 til 19.30., hvor der serveres kage og kaffe/the. Vi håber, der kommer mange og
+                        lytter med. Der er fundet bestyrelsesmedlemmer til posterne, men vi ser gerne andre stille op, som kunne have lyst til at deltage i bestyrelsesarbejdet og ellers har vi plads i de forskellige udvalg.
+            
+                       </p>
+                       <a href="#" class="event-button">Læs mere</a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <hr class="seperator1">
+        <div class="footer-row">
+            <div class="footer-col logo-col">
+                <a href="index.html">
+                <img src="img/Verningelogo.webp" class="footer-logo" alt="Logo Verninge">
+                </a>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+               <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="aktivitetskalender.html">Aktivitetskalender</a></li>
+                <li><a href="">Tilflytter</a></li>
+                <li><a href="">Foreninger</a></li>
+                <li><a href="">Tilmelding</a></li>        
+            </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Borgernyt</h3>
+                <ul>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Søg</h3>
+                <form>
+                    <input type="text" placeholder="Søg">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/verningeogomegn/">
+                        <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/explore/locations/271809650/verninge-fyn-denmark/">
+                    <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p class="contact-email">
+                    <img src="img/Subtract.svg" alt="Email ikon">
+                    formand@verninge.dk
+                </p>
+                <p class="contact-number">
+                    <img src="img/Vector 189.svg" alt="Telefon ikon">
+                    +45 29 90 43 87
+                </p>
+                </div>
+            </div>
+        </div>
+        <hr class="seperator2">
+        <p class="copyright-text">Copyright © 2023 Verninge Borgerforening. All rights reserved.</p>
+
+     </footer>
+
+</body>
+</html>
