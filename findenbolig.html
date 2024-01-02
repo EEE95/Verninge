@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find bolig - Verninge Borgerforening</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/Jstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e25bb8edbb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+        <nav class="mobile-menu">
+            <ul class="menu">
+                <li>
+                    <a href="index.html"><label>Forside</label></a>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="menu-item-2">
+                    <label for="menu-item-2">Info +</label>
+                    <ul class="submenu">
+                        <li><a href="kategori-skole&institution.html">Skoler/institutioner</a></li>
+                        <li><a href="kategori-natur.html">Natur</a></li>
+                        <li><a href="#">Fællesskab</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="aktivitetskalender.html"><label>Aktivitetskalender</label></a>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="menu-item-4">
+                    <label for="menu-item-4">Tilflytter +</label>
+                    <ul class="submenu">
+                        <li><a href="findenbolig.html">Find bolig</a></li>
+                        <li><a href="#">Find lejebolig</a></li>
+                        <li><a href="#">Find byggegrund</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="menu-item-5">
+                    <label for="menu-item-5">Foreninger +</label>
+                    <ul class="submenu">
+                        <li><a href="">Gymnastikforening Verninge</a></li>
+                        <li><a href="">Verninge Forsamlingshus</a></li>
+                        <li><a href="">Verninge Husflid</a></li>
+                        <li><a href="">Verninge Idrætsforening</a></li>
+                        <li><a href="">Verninge Spejderne</a></li>
+                        <li><a href="">Verninge Vandværk</a></li>
+                        <li><a href="">Verninge Kirke</a></li>
+                        <li><a href="">Borgerforening</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="menu-item-6">
+                    <label for="menu-item-6">Tilmelding +</label>
+                    <ul class="submenu">
+                        <li><a href="medlemskab.html">Bliv en del af borgerforeningen</a></li>
+                    </ul>
+                </li>
+
+               
+
+            </ul>
+
+        </nav>
+
+            <div class="mobile-logo"> 
+                <a href="index.html">
+                    <img src="img/Verningelogo.webp" alt="Logo Verninge">
+                </a>
+            </div>
+
+            <div class="search-icon"> 
+                    <img src="img/searchicon.svg" alt="Søge ikon">
+            </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li class="dropdown">
+                    <a href="">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="kategori-skole&institution.html">Skoler/institutioner</a></li>
+                        <li><a href="kategori-natur.html">Natur</a></li>
+                        <li><a href="">Fællesskab</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="aktivitetskalender.html">Aktivitetskalender</a></li>
+            </ul>
+        
+            <div class="logo"> 
+                <a href="index.html">
+                    <img src="img/Verningelogo.webp" alt="Logo Verninge">
+                </a>
+            </div>
+        
+            <ul>
+                <li class="dropdown">
+                    <a href="">Tilflytter</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="findenbolig.html">Find bolig</a></li>
+                        <li><a href="">Find lejebolig</a></li>
+                        <li><a href="">Find byggegrund</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="">Foreninger</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Gymnastikforening Verninge</a></li>
+                        <li><a href="">Verninge Forsamlingshus</a></li>
+                        <li><a href="">Verninge Husflid</a></li>
+                        <li><a href="">Verninge Idrætsforening</a></li>
+                        <li><a href="">Verninge Spejderne</a></li>
+                        <li><a href="">Verninge Vandværk</a></li>
+                        <li><a href="">Verninge Kirke</a></li>
+                        <li><a href="">Borgerforening</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="medlemskab.html">Tilmelding</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="medlemskab.html">Bliv en del af 
+                            <br>borgerforeningen</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section-all">
+            <div class="hero-image">
+                <div class="hero-image-overlay"></div>
+            <img src="img/verningeluftfoto-min.webp" alt="Fællesskabsarrangement i Verninge">
+            <h1>Find bolig</h1>
+        </div>
+        </section>
+        <nav>
+            <ol class="brødkrumme">
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="findenbolig.html">Find en bolig</a></li>
+            </ol>
+          </nav>
+
+        <section class="intro-section">
+            
+            <h1>Find en bolig i Verninge</h1>
+            <h2>Der er 11 villaer til salg lige nu</h2>
+
+            <div class="bolig-box-container">
+            <a href="https://danbolig.dk/bolig/assens/5690/villa/3080000202-308/" class="bolig-box-link">
+            <div class="bolig-box">
+                <img src="img/hus1.jpg" alt="Billede af bolig">
+                <div class="hus-info-container">
+                <p class="hus-type">Villa</p>
+                <p class="adresse">Hindsløkken 13, Verninge, 5690 Tommerup</p>
+                <p class="hus-pris">950.000 kr.</p>
+                <div class="hus-info-wrapper">
+                <p class="hus-info">126 m2</p>
+                <p class="hus-info">4 rum</p>
+                <p class="hus-info">1979</p>
+            </div>
+        </div>
+            </div>
+            </a>
+
+            <a href="https://danbolig.dk/bolig/assens/5690/villa/3080000202-308/" class="bolig-box-link">
+                <div class="bolig-box">
+                    <img src="img/husbilleder/hus2.jpg" alt="Billede af bolig">
+                    <div class="hus-info-container">
+                    <p class="hus-type">Villa</p>
+                    <p class="adresse">Irisvej 8, Verninge, 5690 Tommerup
+                    </p>
+                    <p class="hus-pris">1.145.000 kr.</p>
+                    <div class="hus-info-wrapper">
+                    <p class="hus-info">140 m2</p>
+                    <p class="hus-info">4 rum</p>
+                    <p class="hus-info">1972</p>
+                </div>
+            </div>
+                </div>
+                </a>
+
+                <a href="https://www.nybolig.dk/villa/5690/odensevej/270057/33075" class="bolig-box-link">
+                    <div class="bolig-box">
+                        <img src="img/husbilleder/hus3.jpg" alt="Billede af bolig">
+                        <div class="hus-info-container">
+                        <p class="hus-type">Villa</p>
+                        <p class="adresse">Odensevej 51, Verninge, 5690 Tommerup</p>
+                        <p class="hus-pris">995.000 kr.</p>
+                        <div class="hus-info-wrapper">
+                        <p class="hus-info">121 m2</p>
+                        <p class="hus-info">4 rum</p>
+                        <p class="hus-info">1939</p>
+                    </div>
+                </div>
+                    </div>
+                    </a>
+
+                    <a href="https://www.nybolig.dk/villa/5690/odensevej/270057/33105" class="bolig-box-link">
+                        <div class="bolig-box">
+                            <img src="img/husbilleder/hus5.jpg" alt="Billede af bolig">
+                            <div class="hus-info-container">
+                            <p class="hus-type">Villa</p>
+                            <p class="adresse">Odensevej 9, Verninge, 5690 Tommerup</p>
+                            <p class="hus-pris">898.000 kr.</p>
+                            <div class="hus-info-wrapper">
+                            <p class="hus-info">191 m2</p>
+                            <p class="hus-info">8 rum</p>
+                            <p class="hus-info">1900</p>
+                        </div>
+                    </div>
+                        </div>
+                        </a>
+
+                        <a href="https://www.nybolig.dk/villa/5690/hesselhoved/100679/a001008" class="bolig-box-link">
+                            <div class="bolig-box">
+                                <img src="img/husbilleder/hus6.jpg" alt="Billede af bolig">
+                                <div class="hus-info-container">
+                                <p class="hus-type">Villa</p>
+                                <p class="adresse">Hesselhoved 2,
+                                    Verninge, 5690 Tommerup</p>
+                                <p class="hus-pris">995.000 kr.</p>
+                                <div class="hus-info-wrapper">
+                                <p class="hus-info">262 m2</p>
+                                <p class="hus-info">9 rum</p>
+                                <p class="hus-info">1876</p>
+                            </div>
+                        </div>
+                            </div>
+                            </a>
+
+                            <a href="https://www.edc.dk/alle-boliger/villa/5690-tommerup/odensevej-41/56103985/" class="bolig-box-link">
+                                <div class="bolig-box">
+                                    <img src="img/husbilleder/hus7.jpg" alt="Billede af bolig">
+                                    <div class="hus-info-container">
+                                    <p class="hus-type">Villa</p>
+                                    <p class="adresse">Odensevej 41, Verninge,
+                                        5690 Tommerup</p>
+                                    <p class="hus-pris">795.000 kr.</p>
+                                    <div class="hus-info-wrapper">
+                                    <p class="hus-info">103 m2</p>
+                                    <p class="hus-info">2 rum</p>
+                                    <p class="hus-info">1953</p>
+                                </div>
+                            </div>
+                                </div>
+                                </a>
+        
+                                <a href="https://www.estate.dk/villa/5690/fuglekildevej/270085/112523" class="bolig-box-link">
+                                    <div class="bolig-box">
+                                        <img src="img/husbilleder/hus8.jpg" alt="Billede af bolig">
+                                        <div class="hus-info-container">
+                                        <p class="hus-type">Villa</p>
+                                        <p class="adresse">Fuglekildevej 47,
+                                            Verninge, 5690 Tommerup</p>
+                                        <p class="hus-pris">895.000 kr.</p>
+                                        <div class="hus-info-wrapper">
+                                        <p class="hus-info">160 m2</p>
+                                        <p class="hus-info">6 rum</p>
+                                        <p class="hus-info">1931</p>
+                                    </div>
+                                </div>
+                                    </div>
+                                    </a>
+
+                                    <a href="https://land-bolig.dk/sag/13970000172/lundegaardsvej-63-5690-tommerup/" class="bolig-box-link">
+                                        <div class="bolig-box">
+                                            <img src="img/husbilleder/hus9.jpg" alt="Billede af bolig">
+                                            <div class="hus-info-container">
+                                            <p class="hus-type">Villa</p>
+                                            <p class="adresse">Lundegårsvej 63, Verninge, 5690 Tommerup</p>
+                                            <p class="hus-pris">1.995.000 kr.</p>
+                                            <div class="hus-info-wrapper">
+                                            <p class="hus-info">175 m2</p>
+                                            <p class="hus-info">6 rum</p>
+                                            <p class="hus-info">1907</p>
+                                        </div>
+                                    </div>
+                                        </div>
+                                        </a>
+
+                                        <a href="https://www.nybolig.dk/villa/5690/odensevej/270057/33220" class="bolig-box-link">
+                                            <div class="bolig-box">
+                                                <img src="img/husbilleder/hus10.jpg" alt="Billede af bolig">
+                                                <div class="hus-info-container">
+                                                <p class="hus-type">Villa</p>
+                                                <p class="adresse">Odensevej 7,
+                                                    Verninge, 5690 Tommerup</p>
+                                                <p class="hus-pris">1.400.000 kr.</p>
+                                                <div class="hus-info-wrapper">
+                                                <p class="hus-info">259 m2</p>
+                                                <p class="hus-info">7 rum</p>
+                                                <p class="hus-info">1884</p>
+                                            </div>
+                                        </div>
+                                            </div>
+                                            </a>
+
+                                            <a href="https://danbolig.dk/bolig/assens/5690/villa/2670000272-267/" class="bolig-box-link">
+                                                <div class="bolig-box">
+                                                    <img src="img/husbilleder/hus11.jpg" alt="Billede af bolig">
+                                                    <div class="hus-info-container">
+                                                    <p class="hus-type">Villa</p>
+                                                    <p class="adresse">Odensevej 22, Verninge,
+                                                        5690 Tommerup</p>
+                                                    <p class="hus-pris">1.800.000 kr.</p>
+                                                    <div class="hus-info-wrapper">
+                                                    <p class="hus-info">210 m2</p>
+                                                    <p class="hus-info">7 rum</p>
+                                                    <p class="hus-info">1929</p>
+                                                </div>
+                                            </div>
+                                                </div>
+                                                </a>
+
+                                                <a href="https://danbolig.dk/bolig/assens/5690/villa/2670000272-267/" class="bolig-box-link">
+                                                    <div class="bolig-box">
+                                                        <img src="img/husbilleder/hus12.jpg" alt="Billede af bolig">
+                                                        <div class="hus-info-container">
+                                                        <p class="hus-type">Villa</p>
+                                                        <p class="adresse">Fuglekildevej 10, Verninge,
+                                                            5690 Tommerup</p>
+                                                        <p class="hus-pris">1.295.000 kr.</p>
+                                                        <div class="hus-info-wrapper">
+                                                        <p class="hus-info">367 m2</p>
+                                                        <p class="hus-info">7 rum</p>
+                                                        <p class="hus-info">1886</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                    </a>
+
+                                                    
+        </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <hr class="seperator1">
+        <div class="footer-row">
+            <div class="footer-col logo-col">
+                <a href="index.html">
+                <img src="img/Verningelogo.webp" class="footer-logo" alt="Logo Verninge">
+                </a>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+               <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="aktivitetskalender.html">Aktivitetskalender</a></li>
+                <li><a href="">Tilflytter</a></li>
+                <li><a href="">Foreninger</a></li>
+                <li><a href="medlemskab.html">Tilmelding</a></li>        
+            </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Borgernyt</h3>
+                <ul>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                    <li><a href="">Nyhedseksempel</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Søg</h3>
+                <form>
+                    <input type="text" placeholder="Søg">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/verningeogomegn/">
+                        <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/explore/locations/271809650/verninge-fyn-denmark/">
+                    <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p class="contact-email">
+                    <img src="img/Subtract.svg" alt="Email ikon">
+                    formand@verninge.dk
+                </p>
+                <p class="contact-number">
+                    <img src="img/Vector 189.svg" alt="Telefon ikon">
+                    +45 29 90 43 87
+                </p>
+                </div>
+            </div>
+        </div>
+        <hr class="seperator2">
+        <p class="copyright-text">Copyright © 2023 Verninge Borgerforening. All rights reserved.</p>
+
+     </footer>
+
+</body>
+</html>
