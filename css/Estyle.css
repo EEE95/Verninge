@@ -1,7 +1,6 @@
 /*Generelt*/
 *{
     box-sizing: border-box;
-    margin: 0;
 }
 
 /* billede med titel på */
@@ -110,6 +109,11 @@ p{
     margin-bottom: 10px;
 }
 
+article h2{
+    margin-top: -5px;    
+}
+
+
 article {
     margin-left: 8%;
     margin-right: 8%;
@@ -126,6 +130,10 @@ article img{
 .box .info-wrapper{
     margin-bottom: 15px;
   }
+
+
+ 
+  
 
 
 @media only screen and (min-width: 930px){
@@ -160,6 +168,10 @@ article{
 }
 article h1{
     text-align: left;
+}
+
+article h2{
+    margin-top: -20px;    
 }
 
 .box .info-wrapper{
