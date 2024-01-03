@@ -1212,6 +1212,10 @@
     gap: 3%;
 }
 
+.boxhvid i {
+    font-size: 40px;
+}
+
 /* Styling af bolig boxe på mobil og mindre skærme*/
 
 @media only screen and (max-width: 1060px) {
