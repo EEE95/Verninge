@@ -123,6 +123,11 @@ article img{
 
 }
 
+.box .info-wrapper{
+    margin-bottom: 15px;
+  }
+
+
 @media only screen and (min-width: 930px){
 /*boks med intro tekst og billede + link til uddybende side*/
 .greenbox{
@@ -156,5 +161,10 @@ article{
 article h1{
     text-align: left;
 }
+
+.box .info-wrapper{
+    margin-bottom: 15px;
+  }
+
 }
 
