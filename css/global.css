@@ -272,13 +272,11 @@ main h3{
 .mobile-menu {
     position: fixed;
     min-height: 100vh;
-    overflow-y: auto;
     background-color: #415C41;
     width: 100%;
     z-index: 3; 
     transform: translateX(-100vw);
     transition: ease-in 0.3s;
-    
 }
 
 #menu-toggle:checked ~ .mobile-menu {
@@ -427,7 +425,7 @@ main h3{
 
 /*Styling af info-bokse på desktop*/
 
-.info-wrapper {
+.info-wrapper {                     
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -437,7 +435,8 @@ main h3{
 }
 
 .info-box {
-    width: 30%; 
+    width: 35%; 
+    min-height: 425px;
     height: auto;
     background-color: #C5DBC5;
     box-shadow: 0px 14px 12px rgba(0, 0, 0, 0.3);
@@ -460,7 +459,7 @@ main h3{
 .info-title {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
-    font-size: 28px; 
+    font-size: 24px; 
     line-height: 38px;
     color: #000000;
     text-align: left;
@@ -478,8 +477,6 @@ main h3{
     text-align: left; 
     margin-bottom: 65px;
     margin-top: 2px;
-    
-
 }
 
 .info-button {
@@ -539,7 +536,8 @@ main h3{
     }
     
     .info-box {
-        width: 84%; 
+        width: 84%;
+        min-height: auto;
     }
     
     .info-title {
