@@ -1011,6 +1011,16 @@
     .bund-tekst {
         margin-top: 170px;
     }
+
+    .bank-donation img {
+        margin-top: 10px;
+
+    }
+
+    .mobilepay-donation img {
+        margin-top: 10px;
+    
+    }
 }
 
 .bolig-box {
