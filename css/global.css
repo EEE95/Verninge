@@ -271,18 +271,32 @@ main h3{
 
 .mobile-menu {
     position: fixed;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #415C41;
     width: 100%;
     z-index: 3; 
     transform: translateX(-100vw);
     transition: ease-in 0.3s;
+    overflow-y: auto;
 }
 
 #menu-toggle:checked ~ .mobile-menu {
     transform: translateX(0);
 }
 
+.top-baggrund {
+    z-index: 3;
+    height: 74.55px;
+    width: 100%;
+    background: #415C41;
+    position: fixed;
+    transform: translateX(-100vw);
+    transition: ease-in 0.3s;
+}
+
+#menu-toggle:checked ~ .top-baggrund {
+    transform: translateX(0);
+}
 
 .menu,
 .submenu {
