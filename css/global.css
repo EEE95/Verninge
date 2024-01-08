@@ -231,6 +231,7 @@ main h3{
     cursor: pointer;
     z-index: 4;
     left: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -242,7 +243,6 @@ main h3{
     border-radius: 40px;
     transition: transform 0.5s ease-in-out;
 }
-
 
 
 #menu-toggle:checked ~ .hamburger span:nth-child(1) {
@@ -284,6 +284,10 @@ main h3{
     transform: translateX(0);
 }
 
+.mobile-menu li {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .top-baggrund {
     z-index: 3;
     height: 74.55px;
@@ -293,6 +297,8 @@ main h3{
     transform: translateX(-100vw);
     transition: ease-in 0.3s;
 }
+
+
 
 #menu-toggle:checked ~ .top-baggrund {
     transform: translateX(0);
