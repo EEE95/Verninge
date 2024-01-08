@@ -391,6 +391,7 @@ main h3{
 
 .menu label  { 
     padding-top: 10px; 
+    margin-bottom: -10px;
 }
 
 #menu-toggle:checked ~ .hamburger {
