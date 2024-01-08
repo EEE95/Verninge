@@ -328,10 +328,19 @@ main h3{
 
 .menu > li > label {
     display: block;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-bottom: 15px;
     cursor: pointer;
 }
+
+.link-mobile {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    display: block;
+}
+
 
 .menu > li > label:after {
     content: ' +';
