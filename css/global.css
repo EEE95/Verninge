@@ -272,12 +272,12 @@ main h3{
 .mobile-menu {
     position: fixed;
     height: 100vh;
+    overflow-y: auto;
     background-color: #415C41;
     width: 100%;
     z-index: 3; 
     transform: translateX(-100vw);
     transition: ease-in 0.3s;
-    overflow-y: auto;
 }
 
 #menu-toggle:checked ~ .mobile-menu {
@@ -325,6 +325,14 @@ main h3{
     padding-left: 25px;
     padding-bottom: 15px;
     cursor: pointer;
+}
+
+.menu > li > label:after {
+    content: ' +';
+}
+
+.menu > li > input:checked + label:after {
+    content: ' -';
 }
 
 
@@ -551,7 +559,7 @@ main h3{
     
     .info-box {
         width: 84%;
-        min-height: auto;
+        min-height: 382px;
     }
     
     .info-title {
